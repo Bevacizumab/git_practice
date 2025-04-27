@@ -42,8 +42,9 @@ git merge --abort
 ```
 <<<<<<<: this indicates the contents of 'master'
 from ======= to >>>>>>>: indicates the contents of 'testing'
-You should erase '<<<, ===, >>>' because they will be saved to a commit if you don't delete them.
 ```
+You should erase '<<<, ===, >>>' because they will be saved to a commit if you don't delete them.
+
 4. After editing the file, git add to the edited file.
 ```
 git add src/main.rs
