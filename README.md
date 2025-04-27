@@ -33,7 +33,7 @@ git checkout master
 ```
 git merge testing
 ```
-3. If they conflicts, you have the following two options:
+3. If they conflict, you have the following two options:
 - You may abort the merge.
 ```
 git merge --abort
